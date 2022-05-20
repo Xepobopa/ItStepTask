@@ -10,11 +10,11 @@ public:
 
 	std::string GetName() const { return m_Name; };
 	std::string GetCategory()const { return m_Category; };
-	float GetPrice()const { return m_price; };
+	float GetPrice()const { return m_Price; };
 
 private:
 	std::string m_Name;
 	std::string m_Category;
-	float m_price;
+	float m_Price;
 
 };
